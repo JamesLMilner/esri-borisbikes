@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Boris Bike Availability Map</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/bikes.css">   
+    <link rel="stylesheet" href="https://js.arcgis.com/3.13/esri/css/esri.css">
+      
+  </head>
+  <body>
+		<div id="search"></div>
+		<div id="map">
+			<div id="legend"> 
+
+				<div class="legendtitle"> <b> Bike Availability </b> </div>
+                <div style="background-color: #031327;"></div><div> 16-18+ </div>
+				<div style="background-color: #1A4882;"></div><div> 13-15 </div>
+                <div style="background-color: #316AB0;"></div><div> 10-12 </div>
+                <div style="background-color: #518BD1;"></div><div> 7-9 </div>
+                <div style="background-color: #83AEE2;"></div><div> 4-6 </div>
+                <div style="background-color: #B5D0F1;"></div><div> 1-3 </div>
+				<div style="background-color: #DADFE6;"></div><div> 0 </div>
+				
+			</div>
+		</div>
+
+    <script src="http://js.arcgis.com/3.13compact"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/d3/3.4.11/d3.min.js" > </script>
+	<script src="js/borisbikes.js"></script>
+	<a href="https://github.com/JamesMilnerUK/live-boris-bikes"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
+  </body>
+</html>

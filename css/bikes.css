@@ -1,0 +1,112 @@
+
+body, html, #map { 
+	background-color: white; 
+	font-family: 'Nunito', sans-serif;
+	color: black;
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.legendtitle {
+    width: 200px !important; 
+    height: 25px; 
+    color: black; 
+    padding-top: 3px;
+    padding-bottom: 15px;
+}
+
+#search {
+        display: block;
+        position: absolute;
+        z-index: 2;
+        top: 20px;
+        left: 75px;
+		width: 400px;
+        font-family: 'Nunito', sans-serif;
+      } 
+	  
+.esriGeocoderResults {
+	color: black !important;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.contentPane {
+    max-height: 215px;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+.time {
+    text-align: center;
+}
+
+#donut {
+	text-align: center;
+    height: 110px;
+    overflow: hidden;
+}
+
+#available, #empty {
+	height: 10px;
+	width: 10px;
+	float: left;
+	margin-right: 6px;
+	margin-top: 4px;
+	vertical-align: bottom;
+}
+
+#available {
+	background-color: #031327;
+        
+}
+
+#empty {
+	background-color: #DADFE6;
+}
+
+#legend {
+	position: absolute; 
+	bottom: 0px;
+	 left: 0px;
+	 width: 220px; 
+	 height: 195px;
+	 background: white; 
+	 z-index: 99; 
+	 border-width: 0px; 
+	 border-top-width: 2px; 
+	 border-right-width: 2px; 
+	 border-style: solid; 
+	 border-color: black;
+	 padding-top: 10px;
+	 padding-left: 25px;
+	 padding-bottom: 5px;
+	 
+ }
+
+
+
+.titlePane {
+	color: black !important;
+	height: 100%  !important;
+    font-family: 'Nunito', sans-serif;
+}
+
+.title {
+ color: white;
+    width: 150px;
+	font-family: 'Nunito', sans-serif;
+    
+}
+
+
+#legend div{ 
+   width: 40%;
+   height: 15px; 
+   display: inline-block; 
+   color: black;
+   text-align: center;
+}
