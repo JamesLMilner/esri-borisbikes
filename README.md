@@ -2,6 +2,11 @@
 
 A boris bike availability map for London. Uses ArcGIS JS API and D3.js. 
 
+#Screenshot
+![Boris Bike Availability Map Screenshot](https://github.com/JamesMilnerUK/esri-borisbikes/blob/master/screenshot.png)
+
+#Live Demo
+A demo of the application can be seen [here](http://appsstage.esriuk.com/app/developerevangelist/209/wmt/view/d147785761984557b69c73adf4a8e2da/borisbikes/borisbikes.html)
 
 #Resources
 
