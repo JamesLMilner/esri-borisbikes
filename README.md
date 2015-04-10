@@ -1,4 +1,4 @@
-# Boris Bikes Availibity Map
+# Boris Bikes Availability Map
 
 A boris bike availability map for London. Uses ArcGIS JS API and D3.js. The data is provided by the TFL API which has been exposed as a feature service by the [Node Services Adapter](https://github.com/Esri/node-geoservices-adaptor) (which is similar too [Koop](https://github.com/Esri/koop)).
 
