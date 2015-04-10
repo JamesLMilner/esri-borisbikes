@@ -35,9 +35,9 @@
        colorramp = [
                     new Color("#DADFE6"), 
                     new Color("#B5D0F1"), 
-                    new Color("#83AEE2"), 
+                    //new Color("#83AEE2"), 
                     new Color("#518BD1"), 
-                    new Color("#316AB0"), 
+                    //new Color("#316AB0"), 
                     new Color("#1A4882"), 
                     new Color("#031327")
                    ]
@@ -60,12 +60,12 @@
                     field: "bikes",
                     stops: [
                         { value: 0, color: colorramp[0], opacity: 1  }, 
-                        { value: 3, color: colorramp[1], opacity: 1 },  
-                        { value: 6, color: colorramp[2],  opacity: 1 },
-                        { value: 9, color: colorramp[3],  opacity: 1 },
-                        { value: 12, color: colorramp[4],  opacity: 1 },
-                        { value: 15, color: colorramp[5],  opacity: 1 },
-                        { value: 18, color: colorramp[6],  opacity: 1 }
+                        { value: 5, color: colorramp[1], opacity: 1 },  
+                        //{ value: 6, color: colorramp[2],  opacity: 1 },
+                        { value: 10, color: colorramp[2],  opacity: 1 },
+                       // { value: 12, color: colorramp[4],  opacity: 1 },
+                        { value: 15, color: colorramp[3],  opacity: 1 },
+                        { value: 20, color: colorramp[4],  opacity: 1 }
                     ]
                 });
 
